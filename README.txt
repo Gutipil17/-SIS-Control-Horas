@@ -1,7 +1,8 @@
-SIS Control de Horas v4.1
+SIS CONTROL DE HORAS v4.2
 
-Mejoras:
-- Importación del Excel oficial recibido del piloto anterior con vista previa y detección de duplicados.
-- Exportación de un único Excel editable con una hoja por combinación Unidad + Convenio.
-- Tanqueos en galones y consumo promedio gal/h.
-- Conserva el almacenamiento local existente.
+Correcciones:
+- Los saldos históricos sin detalle permanecen en el dashboard, pero no se exportan como vuelos ficticios al Excel oficial.
+- La importación ignora filas de conciliación sin detalle.
+- Si un Excel recibido aporta vuelos reales que completan un saldo histórico pendiente, la app reduce/elimina automáticamente ese saldo para evitar doble conteo.
+- Se mantiene un solo Excel editable con una hoja por Unidad + Convenio.
+- Se mantiene la misma clave de almacenamiento local para conservar los datos existentes.
