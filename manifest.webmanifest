@@ -1,1 +1,12 @@
-{"name": "SIS Control de Horas", "short_name": "SIS Horas", "start_url": "./index.html", "display": "standalone", "background_color": "#f5f5f7", "theme_color": "#f5f5f7", "description": "Control offline de horas de vuelo SIS Aviación"}
+{
+  "id": "./",
+  "name": "SIS Control de Horas",
+  "short_name": "SIS Horas",
+  "description": "Control local y offline de horas de vuelo SIS Aviación.",
+  "lang": "es-CO",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#f5f5f7",
+  "theme_color": "#f5f5f7"
+}
