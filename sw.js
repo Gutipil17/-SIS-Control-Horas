@@ -1,4 +1,4 @@
-const CACHE_NAME = 'sis-horas-v4-11';
+const CACHE_NAME = 'sis-horas-v4-12';
 const APP_SHELL = ['./', './index.html', './manifest.webmanifest'];
 
 self.addEventListener('install', (event) => {
